@@ -1,4 +1,4 @@
-package m1.s5.ex5_2;
+package m1.s5.ex5.ex5_2;
 
 public class Ex5_2 {
 
