@@ -2,6 +2,7 @@ package m1.s5;
 
 import java.util.Calendar;
 import java.util.Locale;
+import static java.lang.System.*;
 
 public class Ex3 {
 
@@ -13,11 +14,16 @@ public class Ex3 {
     - Utilize import static*/
 
     public static void main(String[] args) {
+
         int idade = Integer.parseInt("25");
         double altura = Double.parseDouble("1.75");
         double pi = Math.PI;
-        System.out.println("Idade: "+idade);
-        System.out.println("Altura: "+altura);
-        System.out.println("Valor PI: "+pi);
+
+        out.println("Idade: "+idade);
+        out.println("Altura: "+altura);
+        out.println("Valor PI: "+pi);
+
+        Calendar calendario = Calendar.getInstance();
+        out.println(calendario);
     }
 }
